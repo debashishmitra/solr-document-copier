@@ -1,0 +1,5 @@
+Make sure that you have Maven installed and mvn in the system classpath. From the command prompt, change to the directory containing the JARs ojdbc6.jar and ojdbc7.jar and execute the following commands one by one:
+
+mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=1.0 -Dpackaging=jar
