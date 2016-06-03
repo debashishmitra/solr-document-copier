@@ -1,5 +1,5 @@
 # solr-document-copier
-A Java Project using Spring and REST for copying Data From a DB to Solr.
+A Java Application to copy data from a database to Solr - exposed as a RESTful Web Service. Uses Springframework, Maven, Solrj, Jersey
 
 #Command for running the standalone version with class files (not jar)
 
